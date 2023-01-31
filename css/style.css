@@ -21,7 +21,7 @@ header {
 }
 
 .logo {
-    height: 80px;
+    height: 60px;
 }
 
 header nav ul {
@@ -34,6 +34,7 @@ header nav {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding: 0px 10px;
 }
 
 a {
@@ -82,8 +83,26 @@ main {
 
 .wishlist {
     right: 0;
-    top: 30px;
-    font: 30px;
-    padding: 5px;
+    top: 3px;
+    font: 3px;
+    padding: 1px;
     position: absolute;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+}
+
+.product {
+    width: calc(100% / 3);
+}
+
+.product-img {
+    width: 100%;
+}
+
+img {
+    width: 200px;
 }
