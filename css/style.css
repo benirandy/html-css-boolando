@@ -49,3 +49,41 @@ a {
 .user-menu li {
     padding: 12px;
 }
+
+main {
+    padding-top: 100px;
+}
+
+.tag {
+    padding: 6px;
+    margin-right: 6px;
+    color: white;
+}
+
+.sconto {
+    background-color: red;
+}
+
+.eco {
+    background-color: green;
+}
+
+.main-img {
+    display: block;
+}
+
+.sec-img {
+    display: none;
+}
+
+.product-img {
+    position: relative;
+}
+
+.wishlist {
+    right: 0;
+    top: 30px;
+    font: 30px;
+    padding: 5px;
+    position: absolute;
+}
